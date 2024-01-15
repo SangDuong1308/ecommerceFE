@@ -1,0 +1,48 @@
+<div class="position-sticky">
+    <div class="list-group list-group-flush mx-3 mt-4">
+        <ul class="list-unstyled navbar-list">
+            <li *ngFor="let tempProductCategory of productCategories">
+                <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-Link" 
+                class="list-group-item list-group-item-action py-2 ripple">
+                <span>{{tempProductCategory.categoryName}}</span>
+              </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- <div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+      <ul class="list-unstyled navbar-list">
+        <li *ngFor="let tempProductCategory of productCategories">
+          <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-Link" >
+            {{tempProductCategory.categoryName}}
+            </a>
+        </li>
+      </ul>
+    </nav>
+</div> -->
+
+
+<!-- 
+  <div class="position-sticky">
+    <div class="list-group list-group-flush mx-3 mt-4">
+      <a routerLink = "category/1" routerLinkActive="active-Link" 
+        class="list-group-item list-group-item-action py-2 ripple">
+        <i class="fas fa-book fa-fw me-3"></i><span>Books</span>
+      </a>
+      <a routerLink = "category/2" routerLinkActive="active-Link"
+         class="list-group-item list-group-item-action py-2 ripple"
+         ><i class="fas fa-coffee fa-fw me-3"></i><span>Coffee Mugs</span>
+      </a>
+      <a routerLink = "category/3" routerLinkActive="active-Link"
+         class="list-group-item list-group-item-action py-2 ripple">
+         <i class="fas fa-sticky-note fa-fw me-3"></i><span>Mouse Pads</span>
+      </a>
+      <a routerLink = "category/4" routerLinkActive="active-Link"
+        class="list-group-item list-group-item-action py-2 ripple">
+        <i class="fas fa-tags fa-fw me-3"></i><span>Luggage Tags</span>
+      </a>
+    </div>
+  </div> -->
