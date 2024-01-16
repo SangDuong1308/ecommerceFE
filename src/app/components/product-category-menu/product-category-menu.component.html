@@ -2,7 +2,7 @@
     <div class="list-group list-group-flush mx-3 mt-4">
         <ul class="list-unstyled navbar-list">
             <li *ngFor="let tempProductCategory of productCategories">
-                <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-Link" 
+                <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-link" 
                 class="list-group-item list-group-item-action py-2 ripple">
                 <span>{{tempProductCategory.categoryName}}</span>
               </a>
@@ -16,7 +16,7 @@
     <nav class="navbar-sidebar">
       <ul class="list-unstyled navbar-list">
         <li *ngFor="let tempProductCategory of productCategories">
-          <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-Link" >
+          <a routerLink = "/category/{{tempProductCategory.id}}" routerLinkActive="active-link" >
             {{tempProductCategory.categoryName}}
             </a>
         </li>
