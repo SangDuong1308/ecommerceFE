@@ -88,7 +88,7 @@ a{
 }
 
 a:active,a:focus,a:hover{
-    text-decoration:none;
+    /* text-decoration: underline; */
     outline:0
 }
 
@@ -371,7 +371,7 @@ input.au-input.au-input-xl{
     color:#555;
     font-size:16px;
     padding:5px 0;
-    text-decoration:none;
+    /* text-decoration:none; */
 }
 
 .navbar-sidebar .navbar-list li a i{
@@ -546,13 +546,19 @@ input.au-input.au-input-xl{
     color:#0da8e4
 }
 .product-box h1{
-    font-size:18px;
+    font-size: 18px;
     border-bottom:1px solid #ccc;
     padding-bottom:5px;
     font-weight:600;
     padding-top:12px;
-    margin-bottom:7px
+    margin-bottom:7px;
 }
+
+.product-box h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .product-box h2{
     font-size:15px;
     padding-bottom:0;
@@ -714,15 +720,20 @@ table.table.table-bordered th{
  * Product Details
  * ----------------------------
  */
-
+/* 
  .price{
     margin:15px 0 0;
     font-weight:800;
     color:#0da8e4
-}
+} */
 .detail-section{
     margin-top:60px
 }
+
+.detail-img{
+    width: 30%;
+}
+
 /**/
 
 /* 
@@ -744,7 +755,9 @@ a.primary-btn{
     color:#fff;
     border-radius:2px;
     font-size:14px;
-    margin-top:5px
+    margin-top:5px;
+    
+    text-decoration: none;
 }
 a.primary-btn:hover{
     background:#0da8e4;
@@ -975,7 +988,7 @@ footer ul li{
         text-align:center
     }
     .product-box{
-        text-align:centerg
+        text-align:center
     }
     .page-container{
         position:relative;
