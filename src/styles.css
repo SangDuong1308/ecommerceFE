@@ -194,7 +194,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
     padding:6px 0
 }
 
-.arrows i{
+.ar s i{
     font-size:30px;
     padding:4px 4px
 }
@@ -218,7 +218,8 @@ section{
 }
 
 input.au-input.au-input-xl{
-    border-radius:40px!important;
+    /* border-radius:40px!important; */
+    border-radius:11px!important;
     margin-right:15px
 }
 
@@ -253,7 +254,7 @@ input.au-input.au-input-xl{
     background:#205b8d;
     line-height:43px;
     color:#fff;
-    border-radius:30px;
+    border-radius:11px;
     border:1px solid #0da8e4;
     float:left;
     margin-top:7px;
@@ -265,8 +266,8 @@ input.au-input.au-input-xl{
     background:#fff;
     padding:0 13px;
     color:#000;
-    border-top-right-radius:20px;
-    border-bottom-right-radius:20px;
+    border-top-right-radius:11px;
+    border-bottom-right-radius:11px;
     margin-left:11px
 }
 
@@ -286,7 +287,21 @@ input.au-input.au-input-xl{
     border:1px solid #205b8d;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
-    border-radius:43px;
+    /* border-radius:43px; */
+    border-radius:11px;
+    background:#205b8d
+}
+
+.au-btn-submit-fas {
+    position:relative;
+    right:0;
+    min-width:50px;
+    color:#fff;
+    border:1px solid #205b8d;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    /* border-radius:43px; */
+    border-radius:11px;
     background:#205b8d
 }
 
@@ -764,6 +779,24 @@ a.primary-btn:hover{
     color:#fff
 }
 
+.primary-btn{
+    background:#05143f;
+    padding:7px 20px;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+    border-radius:2px;
+    font-size:14px;
+    margin-top:5px;
+    
+    text-decoration: none;
+}
+.primary-btn:hover{
+    background:#0da8e4;
+    color:#fff
+}
+
+
 .active-link {
   font-weight: bold;
 }
@@ -995,17 +1028,17 @@ footer ul li{
         top:66px;
         padding-left:0
     }
-    .au-btn-submit{
+    /* .au-btn-submit{
         position:relative;
         right:10px;
         min-width:85px;
         color:#fff;
         border:1px solid #205b8d;
         -webkit-border-radius:3px;
-        -moz-border-radius:3px;
+         -moz-border-radius:3px;
         border-radius:0;
         background:#205b8d
-    }
+    } */
     input.au-input.au-input-xl{
         border-radius:0!important;
         margin-right:0
