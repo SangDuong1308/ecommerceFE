@@ -120,6 +120,33 @@ a,a:hover{
     min-height:100vh
 }
 
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #05143f;
+    text-decoration: none;
+}
+
+.icon-container:hover {
+    color: #0da8e4;
+}
+
+.icon-container:hover .total {
+    background-color: #0da8e4;
+    outline: 1px solid #0da8e4;
+}
+
+.icon-container:hover .total span {
+    color: #05143f;
+}
+
+.custom-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
 aside.menu-sidebar.d-none.d-lg-block.clr{
     background:0 0;
     z-index:99999999;
@@ -134,7 +161,8 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
  */
 
 .header-desktop{
-    background:#0da8e4;
+    /* background:#0da8e4; */
+    background: #fff;
     -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
