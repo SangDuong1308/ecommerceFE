@@ -738,7 +738,8 @@ table.table.table-bordered{
 }
 
 .table-bordered tr td,.table-bordered tr th{
-    border:1px solid #dee2e6
+    border:1px solid #dee2e6;
+    /* font-family: "Helvetica Neue" */
 }
 
 table.table.table-bordered th{
