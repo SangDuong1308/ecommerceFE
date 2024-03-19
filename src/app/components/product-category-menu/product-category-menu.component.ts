@@ -11,6 +11,8 @@ export class ProductCategoryMenuComponent implements OnInit {
 
   productCategories: ProductCategory[] = [];
 
+  selectedCategory!: ProductCategory | undefined;
+
   constructor(private productService: ProductService) { }
 
   ngOnInit() {
@@ -24,6 +26,11 @@ export class ProductCategoryMenuComponent implements OnInit {
         this.productCategories = data;
       }
     );
+  }
+
+  // Function to set the selected category
+  setSelectedCategory(category: ProductCategory) {
+    this.selectedCategory = category;
   }
 
 
